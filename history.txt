@@ -1,0 +1,42 @@
+2022-01-12 Computer WINS:  Player 1 picked rock, Computer picked paper
+2022-01-12 Player 1 WINS:  Player 1 picked paper, Computer picked rock
+2022-01-12 Computer WINS:  Player 1 picked rock, Computer picked paper
+2022-01-12 Player 1 WINS:  Player 1 picked paper, Computer picked rock
+2022-01-12 Computer WINS:  Player 1 picked rock, Computer picked paper
+2022-01-12 DRAW:           Player 1 picked paper, Computer picked paper
+2022-01-12 Player 1 WINS:  Player 1 picked rock, Computer picked scissors
+2022-01-12 Player 1 WINS:  Player 1 picked rock, Computer picked scissors
+2022-01-12 Player 1 WINS:  Player 1 picked paper, Computer picked rock
+2022-01-12 Computer WINS:  Player 1 picked scissors, Computer picked rock
+2022-01-12 Computer WINS:  Player 1 picked scissors, Computer picked rock
+2022-01-12 DRAW:           Player 1 picked rock, Computer picked rock
+2022-01-12 Player 1 WINS:  Player 1 picked rock, Computer picked scissors
+2022-01-12 Computer WINS:  Player 1 picked paper, Computer picked scissors
+2022-01-12 Player 1 WINS:  Player 1 picked scissors, Computer picked paper
+2022-01-12 Player 1 WINS:  Player 1 picked rock, Computer picked scissors
+2022-01-12 Computer WINS:  Player 1 picked paper, Computer picked scissors
+2022-01-12 Computer WINS:  Player 1 picked scissors, Computer picked rock
+2022-01-12 Computer WINS:  Player 1 picked rock, Computer picked paper
+2022-01-12 Computer WINS:  Player 1 picked rock, Computer picked paper
+2022-01-12 Computer WINS:  Player 1 picked rock, Computer picked paper
+2022-01-12 Computer WINS:  Player 1 picked rock, Computer picked paper
+2022-01-12 DRAW:           Player 1 picked paper, Computer picked paper
+2022-01-12 DRAW:           Player 1 picked scissors, Computer picked scissors
+2022-01-12 Computer WINS:  Player 1 picked rock, Computer picked paper
+2022-01-12 DRAW:           Player 1 picked paper, Computer picked paper
+2022-01-12 DRAW:           Player 1 picked scissors, Computer picked scissors
+2022-01-12 Player 1 WINS:  Player 1 picked rock, Computer picked scissors
+2022-01-12 Player 1 WINS:  Player 1 picked rock, Computer picked scissors
+2022-01-12 Computer WINS:  Player 1 picked paper, Computer picked scissors
+2022-01-12 DRAW:           Player 1 picked rock, Computer picked rock
+2022-01-12 DRAW:           Player 1 picked rock, Computer picked rock
+2022-01-12 DRAW:           Player 1 picked paper, Computer picked paper
+2022-01-12 DRAW:           Player 1 picked rock, Computer picked rock
+2022-01-12 DRAW:           Player 1 picked rock, Computer picked rock
+2022-01-12 Player 1 WINS:  Player 1 picked paper, Computer picked rock
+2022-01-12 DRAW:           Player 1 picked rock, Computer picked rock
+2022-01-12 Player 1 WINS:  Player 1 picked paper, Computer picked rock
+2022-01-12 DRAW:           Player 1 picked scissors, Computer picked scissors
+2022-01-12 Player 1 WINS:  Player 1 picked rock, Computer picked scissors
+2022-01-12 Player 1 WINS:  Player 1 picked rock, Computer picked scissors
+2022-01-12 Player 1 WINS:  Player 1 picked paper, Computer picked rock

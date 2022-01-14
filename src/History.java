@@ -7,27 +7,24 @@ public class History {
     private static List<String> playHistory = new ArrayList<>();
 
 
-    public static void storeHistory(String winner, String p1Choice, String opponent, String opponentChoice) throws IOException {
+    public static void storeHistory(String winner, String p1Choice, String opponent, String opponentChoice) {
         LocalDate date = LocalDate.now();
-        String writeHistory = "";
-        playHistory.add(String.format("%s %-15s Player 1 picked %s, %s picked %s%n", date, winner, p1Choice, opponent, opponentChoice));
-        List<String> playHistory = History.playHistory;
-        for (int i = 0; i < playHistory.size(); i++) {
-            writeHistory += playHistory.get(i);
-        }
+        // The string format here needs to have '%n' left off otherwise it will add an extra linebreak to the array.
+        playHistory.add(String.format("%s %-15s Player 1 picked %s, %s picked %s", date, winner, p1Choice, opponent, opponentChoice));
+        // This string format is for writing to the file. We need the '%n' here otherwise it would just write all entries in one line.
+        String writeHistory = String.format("%s %-15s Player 1 picked %s, %s picked %s%n", date, winner, p1Choice, opponent, opponentChoice);
         writeToFile(writeHistory);
     }
 
-    public static void readHistory() throws IOException {
+    public static void readHistory() {
         for (int i = 0; i < playHistory.size(); i++) {
             System.out.println(playHistory.get(i));
         }
     }
 
-    public static void writeToFile(String printHistory) throws IOException {
+    public static void writeToFile(String printHistory) {
         try{
             BufferedWriter writer = new BufferedWriter(new FileWriter("./history.txt",true));
-//            writer.write(printHistory); //Overwrites all history
             writer.append(printHistory);
             writer.flush();
             writer.close();
@@ -35,9 +32,10 @@ public class History {
             System.out.println(e.getMessage());
         }
     }
-    public static void loadHistory() throws IOException {
-//       TESTING. Throwing exception error when new items are added to the array from the game.
+    // Loads in external play history
+    public static void loadHistory() {
         try {
+            // Reading file line by line and putting contents into a StringBuffer.
             BufferedReader reader = new BufferedReader(new FileReader("./history.txt"));
             StringBuffer sb = new StringBuffer();
             String line;
@@ -46,9 +44,11 @@ public class History {
                 sb.append("\n");
             }
             reader.close();
-            List<String> lines = List.of(sb.toString().split("\n"));
-            playHistory = List.of(sb.toString().split("\n"));
-
+            //Turned the StringBuffer into a List, so we can get the size of the List for the loop.
+            for (int i = 0; i < List.of(sb.toString().split("\n")).size(); i++) {
+                //StringBuffer is adding the history line by line to the playHistory array so proper formatting is kept, otherwise it would load at one long text.
+                playHistory.add(sb.toString().split("\n")[i]);
+            }
         } catch (IOException e) {
             e.printStackTrace();
         }
